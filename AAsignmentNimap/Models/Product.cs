@@ -17,5 +17,7 @@ namespace AAsignmentNimap.Models
         //public virtual Category? Category { get; set; }
         [NotMapped]
         public string? CategoryName { get; set; }
+
+        public virtual Category Category { get; set; }
     }
 }

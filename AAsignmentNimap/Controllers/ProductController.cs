@@ -14,10 +14,7 @@ namespace AAsignmentNimap.Controllers
             this.service = service;
             this.cat = cat;
         }
-        //public ActionResult Index()
-        //{
-        //    return View(service.GetProducts());
-        //}
+
 
         public ActionResult Index(int pg = 1)
         {
